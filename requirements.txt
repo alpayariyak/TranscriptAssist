@@ -1,0 +1,6 @@
+requests
+pillow
+openai
+python-dotenv
+python-dotenv
+google-cloud-vision

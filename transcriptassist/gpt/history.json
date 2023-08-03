@@ -1,0 +1,46 @@
+[
+  {
+    "role": "system",
+    "content": "You are a math expert that can infer and determine what the actual transcription of handwritten Grade 6-8 math work is based on incomplete and error-prone OCR transcriptions. Use latex for math expressions."
+  },
+  {
+    "role": "user",
+    "content": "OCR-1:\n4x6=56cm\u00b2\n4 is the hight\nbis The base\n9x6=56cm\u00b2\nand\n\nOCR-2:\n\\( 4 \\times 6=56 \\mathrm{~cm}^{2} \\)\n4 is the hight\nbis the base\n\\( 9 \\times 6=56 \\mathrm{~cm}^{2} \\)\n\nInferred Correct Transcription:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "\\(4 \\times 6=56 \\mathrm{~cm}^{2}\\)\n\n4 is the hight\n\nb is the base\n\n\\(9 \\times 6=56 \\mathrm{~cm}^{2}\\)"
+  },
+  {
+    "role": "user",
+    "content": "OCR-1:\nb\n9x6=54\na is\n4\nanswer.\nand bis\nSo\n54 is your\n\nOCR-2:\n\\( a \\) is \\( b \\) and \\( b \\) is H \\( \\quad 9 \\times 6=54 \\) So 54 is your answer.\n\nInferred Correct Transcription:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "9 is b and 6 is H \\(9 \\times 6=54\\) So 54 is your answer"
+  },
+  {
+    "role": "user",
+    "content": "OCR-1:\n6x7=42 0\u00b2\n3\nmy\nto\nStrategy was\ndecompose the\nnumber the rearange\nit to make it a\nLatang ber\n25\n\nOCR-2:\n\\[\n6 \\times 7=42 v^{2}\n\\]\nMy Strategy was\nto decompose the number the rearange it to make it a rec t a le\n\nInferred Correct Transcription:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "\\[\n6 \\times 7=42 U^{2}\n\\]\n\nmy Strategy was to decompose the number the rearange it to make it a rectangle"
+  },
+  {
+    "role": "user",
+    "content": "OCR-1:\n1. The ratio of\ndogs\nto cats is 6: 4.\n2. The ratio of mice to cats is_2__;\n_4\n\nOCR-2:\n1. The ratio of dogs to cats is \\( 6: 4 \\).\n2. The ratio of mice to cats is \\( 2: 4 \\)\n\nInferred Correct Transcription:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "1. The ratio of dogs to cats is \\(6: 4\\).\n\n2. The ratio of mice to cats is \\(2: 4\\)"
+  },
+  {
+    "role": "user",
+    "content": "OCR-1:\n7x6=42\n424\u00b2\nI would create a rectangle with the\ntwo triangles.\nAnd then add up the area from there.\n\nOCR-2:\n\\[\n7 \\times 6=42\n\\]\nI would create a rectangle with the two triongles. And then ald up the area from there.\n\nInferred Correct Transcription:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "\\(\n7 \\times 6 = 42\n\\)\n\n\\(42 u^{2}\\)\nI would create a rectangle with the two triangles. And then add up the area from there."
+  }
+]
