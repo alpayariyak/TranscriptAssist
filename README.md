@@ -1,5 +1,7 @@
 # TranscriptAssist
-TranscriptAssist is a Python package that combines Google Cloud Vision API, Mathpix OCR API, and OpenAI's GPT-4 to transcribe images of handwritten math into LaTeX.
+TranscriptAssist is a powerful system that combines Google Cloud Vision API, Mathpix OCR API, and OpenAI's GPT-4 to transcribe images of handwritten math into LaTeX.
+
+The main purpose of the creation of TranscriptAssist was to accelerate internal tagging and labeling of handwritten math data at EdLight, PBC. 
 
 # Installation
 ```bash
