@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
-from transcriptassist.OCR.google_cloud_vision import GoogleCloudVision
-from transcriptassist.OCR.mathpix import MathPix
+from transcriptassist.ocr.google_cloud_vision import GoogleCloudVision
+from transcriptassist.ocr.mathpix import MathPix
 import os
 import json
 import openai
